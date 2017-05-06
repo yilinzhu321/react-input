@@ -1,0 +1,23 @@
+{
+  "name": "@yzt/react-input",
+  "version": "2.0.1",
+  "description": "inputModule",
+  "main": "lib/InputCom-es5-min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transfer": "babel ./es6/InputCom.js -o lib/InputCom-es5.js",
+    "uglify": "uglifyjs ./lib/InputCom-es5.js -o ./lib/InputCom-es5-min.js"
+  },
+  "keywords": [
+    "react",
+    "input-module",
+    "verify-information",
+    "animation"
+  ],
+  "author": "yilin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
